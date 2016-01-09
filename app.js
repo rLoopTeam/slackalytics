@@ -59,6 +59,7 @@ app.post('/collect', function(req, res){
 	var exclaCount = searchM(/!/g);
 	var questionMark = searchM(/\?/g);
 	var elipseCount = searchM(/\.\.\./g);
+	var letterCount = msgText.length;
 
 
 	//Structure Data
